@@ -9,6 +9,8 @@ docker build --tag=itsjustcon/node-electron .
 ```
 
 ### Deploy:
+*Be careful with this!* Docker Hub is configured for Automated Builds - meaning
+this container image will be automatically re-built & updated on git push.
 ```
 docker push itsjustcon/node-electron
 ```
